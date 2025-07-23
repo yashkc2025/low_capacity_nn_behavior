@@ -1,6 +1,6 @@
 # 🧶 Low-Capacity Neural Networks: How Small Can They Go?  
 
-**TL;DR**: Tiny neural nets can solve MNIST binary tasks even after 95% weight pruning, and overparameterization boosts robustness—not just accuracy. **[Paper](paper/paper.pdf)**
+**TL;DR**: Tiny neural nets can solve MNIST binary tasks even after 95% weight pruning, and overparameterization boosts robustness not just accuracy. **[Paper](paper/paper.pdf)**
 
 ![t-SNE before and after pruning](./results/pruning/t-sne.png)  
 t-SNE before and after pruning
@@ -10,7 +10,7 @@ t-SNE before and after pruning
 - **"Brain Surgery" for NNs**: Prune **95% of weights** and the network still works ([see results](./results/pruning/f1_magnitude_pruning_4_and_9.png)).  
 - **Task Complexity Matters**: A **4-neuron net** handles 0vs1, but needs **24 neurons** for tricky pairs like 4vs9.  
 - **Interpretability Wins**: Saliency maps prove pruned nets use **human-like reasoning** (focus on stroke features).  
-- **Overparameterization ≠ Overkill**: Bigger nets aren’t smarter—just **more robust to noise** (occlusion/Gaussian).  
+- **Overparameterization ≠ Overkill**: Bigger nets aren’t smarter just **more robust to noise** (occlusion/Gaussian).  
 
 ## 📊 **Key Results**  
 

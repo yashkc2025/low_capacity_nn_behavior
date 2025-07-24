@@ -43,3 +43,5 @@ def process_and_save_mnist(save_dir="./data"):
         os.makedirs(split_save_dir, exist_ok=True)
 
         save_vectors_labels(vectors, labels, split_save_dir)
+
+process_and_save_mnist()

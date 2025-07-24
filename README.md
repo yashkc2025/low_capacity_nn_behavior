@@ -1,6 +1,6 @@
 # 🧶 Low-Capacity Neural Networks: How Small Can They Go?  
 
-**TL;DR**: Tiny neural nets can solve MNIST binary tasks even after 95% weight pruning, and overparameterization boosts robustness not just accuracy. **[Paper](paper/paper.pdf)**
+**TL;DR**: Tiny neural nets can solve MNIST binary tasks even after 95% weight pruning, and overparameterization boosts robustness not just accuracy. **[Paper](https://arxiv.org/pdf/2507.16278)**
 
 ![t-SNE before and after pruning](./results/pruning/t-sne.png)  
 t-SNE before and after pruning
